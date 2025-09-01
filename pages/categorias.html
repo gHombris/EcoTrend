@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoTrend - Categorias</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html">EcoTrend</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="produtos.html">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="categorias.html">Categorias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html">Contato</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="bi bi-cart"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+        <div class="row">
+            <div class="col-md-3">
+                <h4 class="mb-4">Filtros</h4>
+                
+                <div class="card mb-4">
+                    <div class="card-header">Preço</div>
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-decoration-none text-dark">Até R$ 50</a></li>
+                            <li><a href="#" class="text-decoration-none text-dark">R$ 50 - R$ 100</a></li>
+                            <li><a href="#" class="text-decoration-none text-dark">Mais de R$ 100</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card mb-4">
+                    <div class="card-header">Tipo de Produto</div>
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-decoration-none text-dark">Roupas</a></li>
+                            <li><a href="#" class="text-decoration-none text-dark">Beleza</a></li>
+                            <li><a href="#" class="text-decoration-none text-dark">Casa</a></li>
+                            <li><a href="#" class="text-decoration-none text-dark">Tecnologia</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card mb-4">
+                    <div class="card-header">Marca</div>
+                    <div class="card-body">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="marca1">
+                            <label class="form-check-label" for="marca1">Marca A</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="marca2">
+                            <label class="form-check-label" for="marca2">Marca B</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="marca3">
+                            <label class="form-check-label" for="marca3">Marca C</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+                <h4 class="mb-4">Todos os Produtos</h4>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="/images/camiseta organica.png" class="card-img-top" alt="camisa">
+                            <div class="card-body">
+                                <h5 class="card-title">Camiseta Orgânica</h5>
+                                <p class="card-text">R$ 59,90</p>
+                                <a href="#" class="btn btn-success">Adicionar ao Carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="/images/hidratante.png" class="card-img-top" alt="hidratante">
+                            <div class="card-body">
+                                <h5 class="card-title">Hidratante Natural</h5>
+                                <p class="card-text">R$ 45,00</p>
+                                <a href="#" class="btn btn-success">Adicionar ao Carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="/images/vasoreci.png" class="card-img-top" alt="vaso">
+                            <div class="card-body">
+                                <h5 class="card-title">Vaso de Reciclável</h5>
+                                <p class="card-text">R$ 89,90</p>
+                                <a href="#" class="btn btn-success">Adicionar ao Carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container-fluid bg-dark text-white py-5">
+        </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
